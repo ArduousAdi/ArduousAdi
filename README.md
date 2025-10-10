@@ -1,14 +1,11 @@
 <!-- Banner -->
 <p align="center">
-  <img src="<!-- Add your banner link here -->" alt="Banner" width="100%">
+  <img src="https://ibb.co/TBZQbZSt" alt="Banner" width="100%">
 </p>
 
 <h1 align="center">👋 Hey, I'm <span style="color:#00BFFF;">Aditya Kumar Jha</span></h1>
 <h3 align="center">AI Engineer | Full-Stack Developer | Building Generative AI Systems That Think and Scale</h3>
 
-<p align="center">
-  <img src="<!-- Add your profile picture link here -->" alt="Profile Photo" width="160" style="border-radius:50%">
-</p>
 
 ---
 
