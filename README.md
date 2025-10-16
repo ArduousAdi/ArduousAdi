@@ -3,7 +3,7 @@
   <img src="https://i.postimg.cc/kXd8VzPk/Whats-App-Image-2025-10-10-at-23-37-56.jpg" alt="Banner" width="100%">
 </p>
 
-<h1 align="center">👋 Hey, I'm <span style="color:#00BFFF;">Aditya Kumar Jha</span></h1>
+<h1 align="center">👋 Hey, I am <span style="color:#00BFFF;">Aditya Kumar Jha</span></h1>
 <h3 align="center">AI ML Engineer | Full-Stack Developer | Building Generative AI Systems That Think and Scale</h3>
 
 
