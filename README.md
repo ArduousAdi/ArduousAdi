@@ -10,7 +10,7 @@
 ---
 
 ### 🧠 About Me  
-Hi there! I’m **Aditya**, an **AI & Software Engineer** passionate about building intelligent systems that merge *engineering precision* with *AI creativity*.  
+Hi there! I’m **Aditya**, an **AI and Software Engineer** passionate about building intelligent systems that merge *engineering precision* with *AI creativity*.  
 I love working on projects that push the boundary between **data**, **automation**, and **human-like reasoning**.  
 
 💡 Currently exploring:  
