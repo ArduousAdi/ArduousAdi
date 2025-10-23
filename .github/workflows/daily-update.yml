@@ -1,0 +1,27 @@
+name: 🌞 Daily README Update
+
+on:
+  schedule:
+    - cron: "30 2 * * *"  # runs every day at 8:00 AM IST (2:30 UTC)
+  workflow_dispatch:       # allows you to trigger manually from GitHub Actions tab
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update timestamp in README
+        run: |
+          DATE=$(date +"%A, %d %B %Y %H:%M:%S %Z")
+          sed -i "s|<!-- last_update -->.*|<!-- last_update --> $DATE|" README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "🕒 Auto update: $DATE" || echo "No changes to commit"
+          git push
